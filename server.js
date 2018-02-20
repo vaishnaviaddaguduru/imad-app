@@ -13,7 +13,7 @@ app.get('/article-two', function (req, res) {
   res.send('this is second artilce');
 });
 app.get('/article-one', function (req, res) {
-  res.send('this is first artilce');
+   res.sendFile(path.join(__dirname, 'ui', 'article-one'));
 });
 
 app.get('/ui/style.css', function (req, res) {
