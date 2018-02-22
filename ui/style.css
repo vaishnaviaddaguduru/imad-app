@@ -19,4 +19,11 @@ body {
 .img-medium {
     height: 200px;
 }
-
+.container{
+    text-align: center;
+    font-size: 300%;
+    font-family:aireal;
+    color:red;
+    padding-left:20px;
+    padding-right:20px;
+}
