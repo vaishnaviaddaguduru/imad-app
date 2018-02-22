@@ -3,7 +3,7 @@ console.log('Loaded!');
 var element=document.getElementById('main-text');
 element.innerHTML='my second new value';
 //move the image
-var img=document.getElementById('vaishu');
+var img=document.getElementById('madi');
 img.onclick=function(){
  img.style.marginleft='100px';   
 };
